@@ -3,7 +3,7 @@
 import socket
 
 # Target domain and port range
-target = "target.com"
+target = "https://target.com"
 start_port = 20
 end_port = 65535
 timeout = 0.5
