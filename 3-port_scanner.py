@@ -1,4 +1,4 @@
-# Using Python, we're going to import the socket tool, so we can get access to the BSD socket interface and Unix systems. The argparse tool must be imported as well in order to specify custom type converters on a command-line.
+# Using Python, we're going to import the socket tool, so we can get access to the BSD socket interface and Unix systems. The argparse tool must be imported as well in order to specify converters on a command-line.
 
 import socket
 import argparse
@@ -18,7 +18,7 @@ def open_port(ip, port):
 def main():
     parser = argparse.ArgumentParser(description="Python Port Scanner")
     parser.add_argument("target", help="Target IP or domain")
-    parser.add_argument("-p", "--ports", help="Port range, e.g., 20-80", default="1-1024")
+    parser.add_argument("-p", "--ports", help="Port range, e.g., 20-65535", default="1-1024")
     args = parser.parse_args()
 
     target = args.target
