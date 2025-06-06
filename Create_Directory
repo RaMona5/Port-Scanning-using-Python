@@ -1,0 +1,4 @@
+# Using bash, first make a directory using the mkdir command then enter in that directory.
+
+mkdir port_scan_20-65535
+cd port_scan_20-65535
