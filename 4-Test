@@ -1,3 +1,9 @@
-#On the Unix system, we're going to test our python script named "port_scanner.py" for the targeted domain within the desired port scanning range.
+# On the Unix system, we're going to test our python script named "port_scanner.py" for the targeted domain within the desired port scanning range.
 
 python port_scanner.py target.com -p 20-65535
+
+# Example of input: 
+# [~] Scanning target.com from port 20 to 65535
+# [+] Port 22 is open
+# [+] Port 80 is open 
+# [+] ...
